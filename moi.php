@@ -1,11 +1,11 @@
 <?php
-require_once '../inc/vendor/autoload.php'; // Adjust path to your autoload.php
+require_once 'vendor/autoload.php'; // Adjust path to your autoload.php
 
 // Path to JSON file
-$jsonFile = 'students.json';
+$jsonFile = 'data/students.json';
 
 // Output file path
-$outputPath = '../testimonials/ALL_TESTIMONIALS.pdf';
+$outputPath = 'ALL_TESTIMONIALS.pdf';
 
 if (!file_exists($jsonFile)) {
     die("students.json file not found.");
@@ -44,7 +44,7 @@ foreach ($students as $index => $student) {
                 বরিশাল ইঞ্জিনিয়ারিং কলেজ<br>বরিশাল - ৮২০০, বাংলাদেশ
             </td>
             <td align="center">
-                <img src="logo.png" width="100" height="100" />
+                <img src="logo/bec.png" width="100" height="100" />
             </td>
             <td align="left" colspan="3" style="font-size:20px">
                 Department of Civil Engineering<br>Barisal Engineering College<br>Barisal-8200, Bangladesh
@@ -110,5 +110,4 @@ foreach ($students as $index => $student) {
 // $mpdf->Output($outputPath, \Mpdf\Output\Destination::FILE);
 $mpdf->Output($outputPath, "I");
 
-// echo "✅ All testimonials saved to: $outputPath";
 ?>

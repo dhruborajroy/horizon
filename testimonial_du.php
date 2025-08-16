@@ -3,7 +3,7 @@
 require_once 'vendor/autoload.php'; // Adjust path to your autoload.php
 
 // Path to JSON file
-$jsonFile = 'students.json';
+$jsonFile = 'data/students.json';
 
 // Output file path
 $outputPath = 'testimonial.pdf';
@@ -148,7 +148,7 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
 
     // Add image only on the first page (example)
     // if ($pageNo == 1) {
-        $pdf->Image('du_bec.png', 77, 12, 50); // x, y, width height
+        $pdf->Image('logo/du_bec.png', 77, 12, 50); // x, y, width height
         // $pdf->Image('Dhaka_University_logo.png', 120, 12, 40); // x, y, width
     // }
 }
@@ -156,9 +156,9 @@ for ($pageNo = 1; $pageNo <= $pageCount; $pageNo++) {
 // Output modified PDF
 // $pdf->Output('F', 'output.pdf');
 
-        // $file_path=$i.".jpg";
-        $file_path_pdf="m.pdf";
-    $pdf->Output($file_path_pdf,"I");
-    // unlink($file_path);
+// $file_path=$i.".jpg";
+$file_path_pdf="Testimonial.pdf";
+$pdf->Output($file_path_pdf,"I");
+unlink($outputPath);
 
 ?>
