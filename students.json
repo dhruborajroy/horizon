@@ -2,6 +2,7 @@
   {
     "Timestamp": "8/11/2025 10:47:56",
     "Name": "MD Mahmudul Hasan",
+    "Gender": "Male",
     "Reg No": 3186,
     "Department": "CE",
     "Session": "2019-2020",
@@ -18,11 +19,13 @@
     "Student ID (19xxxxxxx)": "DU Reg:3186",
     "Post (Horizons Club )": "Treasurer",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:02:06",
     "Name": "Moshiur Rahman",
+    "Gender": "Male",
     "Reg No": 1057,
     "Department": "CE",
     "Session": "2018-2019",
@@ -39,11 +42,13 @@
     "Student ID (19xxxxxxx)": 181023,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:04:07",
     "Name": "MD. Rakib",
+    "Gender": "Male",
     "Reg No": 3181,
     "Department": "CE",
     "Session": "2019-2020",
@@ -60,11 +65,13 @@
     "Student ID (19xxxxxxx)": 191043,
     "Post (Horizons Club )": "Member",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:41:38",
     "Name": "Ahnaf Rashid Abid",
+    "Gender": "Male",
     "Reg No": 3140,
     "Department": "CE",
     "Session": "2019-2020",
@@ -81,16 +88,18 @@
     "Student ID (19xxxxxxx)": 191002,
     "Post (Horizons Club )": "Executive Member",
     "Father's Name": "A.K.M. Harun Or Rashid",
-    "Mother's Name": "Farida Yesmin"
+    "Mother's Name": "Farida Yesmin",
+    "Post(Cultural Club)": ""
   },
   {
-    "Timestamp": "8/11/2025 11:05:19",
+    "Timestamp": "8/12/2025 23:26:43",
     "Name": "Md. Minhazul Hossain",
+    "Gender": "Male",
     "Reg No": 3155,
     "Department": "CE",
     "Session": "2019-2020",
     "Batch": "03",
-    "Please Certificates You Needed": "Provisional Certificate, Sports Club, Research Center, Flim & Photographic Society, Horizons Club",
+    "Please Certificates You Needed": "Provisional Certificate, Testimonial, MOI, Sports Club, Research Center, Flim & Photographic Society, Horizons Club",
     "Post (Sports Club)": "Member",
     "Post(Research Center)": "Member",
     "Month": "",
@@ -101,12 +110,14 @@
     "CGPA": 3.16,
     "Student ID (19xxxxxxx)": 191017,
     "Post (Horizons Club )": "Member",
-    "Father's Name": "",
-    "Mother's Name": ""
+    "Father's Name": "Md. Aslam Hossain",
+    "Mother's Name": "Irin Sultana",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 19:50:37",
     "Name": "Rafsun Jami Siam",
+    "Gender": "Male",
     "Reg No": 3194,
     "Department": "CE",
     "Session": "2019-2020",
@@ -123,11 +134,13 @@
     "Student ID (19xxxxxxx)": 191056,
     "Post (Horizons Club )": "General member",
     "Father's Name": "Md.Zakir Hossain",
-    "Mother's Name": "Sheuly Anjuman"
+    "Mother's Name": "Sheuly Anjuman",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:36:27",
     "Name": "Nur hossen Badhon",
+    "Gender": "Male",
     "Reg No": 3184,
     "Department": "CE",
     "Session": "2019-2020",
@@ -144,11 +157,13 @@
     "Student ID (19xxxxxxx)": 191046,
     "Post (Horizons Club )": "Member",
     "Father's Name": "NUR MOHAMMAD",
-    "Mother's Name": "BILKIS AKTER"
+    "Mother's Name": "BILKIS AKTER",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 10:05:20",
     "Name": "Md. Nazmul Islam",
+    "Gender": "Male",
     "Reg No": 1082,
     "Department": "CE",
     "Session": "2018-2019",
@@ -165,11 +180,13 @@
     "Student ID (19xxxxxxx)": 181051,
     "Post (Horizons Club )": "",
     "Father's Name": "Shamsul Alam",
-    "Mother's Name": "Nazma Begum"
+    "Mother's Name": "Nazma Begum",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 21:04:46",
     "Name": "SHIRSHA ROHIT KIRTI",
+    "Gender": "Male",
     "Reg No": 3177,
     "Department": "CE",
     "Session": "2019-2020",
@@ -186,11 +203,13 @@
     "Student ID (19xxxxxxx)": 191039,
     "Post (Horizons Club )": "Member",
     "Father's Name": "KHOKAN KUMAR SHIL",
-    "Mother's Name": "SWASTIKA SEAL"
+    "Mother's Name": "SWASTIKA SEAL",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:12:49",
     "Name": "Sudipa Roy",
+    "Gender": "Female",
     "Reg No": 3170,
     "Department": "CE",
     "Session": "2019-2020",
@@ -207,11 +226,13 @@
     "Student ID (19xxxxxxx)": 191032,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:15:29",
     "Name": "Md. Al-Shahriar",
+    "Gender": "Male",
     "Reg No": 3156,
     "Department": "CE",
     "Session": "2019-2020",
@@ -228,11 +249,13 @@
     "Student ID (19xxxxxxx)": 191018,
     "Post (Horizons Club )": "General Member",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:15:37",
     "Name": "MD. Rashedul Islam",
+    "Gender": "Male",
     "Reg No": 3157,
     "Department": "CE",
     "Session": "2019-2020",
@@ -249,11 +272,13 @@
     "Student ID (19xxxxxxx)": 191019,
     "Post (Horizons Club )": "Member",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 23:16:47",
     "Name": "RUBAYED TANVIR ESHAN",
+    "Gender": "Male",
     "Reg No": 3176,
     "Department": "CE",
     "Session": "2019-2020",
@@ -270,11 +295,13 @@
     "Student ID (19xxxxxxx)": 191038,
     "Post (Horizons Club )": "General Member",
     "Father's Name": "Md. Badar Uddin",
-    "Mother's Name": "Nur Sultana"
+    "Mother's Name": "Nur Sultana",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:20:58",
     "Name": "MD Saimul Islam",
+    "Gender": "Male",
     "Reg No": 3188,
     "Department": "CE",
     "Session": "2019-2020",
@@ -291,11 +318,13 @@
     "Student ID (19xxxxxxx)": 191050,
     "Post (Horizons Club )": "General Member",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:21:04",
     "Name": "M Shamim Reza",
+    "Gender": "Male",
     "Reg No": 3141,
     "Department": "CE",
     "Session": "2019-2020",
@@ -312,11 +341,13 @@
     "Student ID (19xxxxxxx)": 191003,
     "Post (Horizons Club )": "Associate Secretary (Alumni Association)",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 23:19:23",
     "Name": "RAKIBUL ISLAM",
+    "Gender": "Male",
     "Reg No": 3175,
     "Department": "CE",
     "Session": "2019-2020",
@@ -333,11 +364,13 @@
     "Student ID (19xxxxxxx)": 191037,
     "Post (Horizons Club )": "Executive Member",
     "Father's Name": "MD. LOKMAN HOSSAIN",
-    "Mother's Name": "MODINA AKTER"
+    "Mother's Name": "MODINA AKTER",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 22:38:50",
     "Name": "Jubayer Hossain Santo",
+    "Gender": "Male",
     "Reg No": 3144,
     "Department": "CE",
     "Session": "2019-2020",
@@ -354,11 +387,13 @@
     "Student ID (19xxxxxxx)": 191006,
     "Post (Horizons Club )": "Member",
     "Father's Name": "MD. Abdul Hannan Dewan",
-    "Mother's Name": "Sheuli Begum"
+    "Mother's Name": "Sheuli Begum",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:29:34",
     "Name": "Ashraful Alam",
+    "Gender": "Male",
     "Reg No": 3164,
     "Department": "CE",
     "Session": "2019-2020",
@@ -375,11 +410,13 @@
     "Student ID (19xxxxxxx)": 191026,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 11:31:36",
-    "Name": "Md.Ashiqur Rahman",
+    "Name": "Md. Ashiqur Rahman",
+    "Gender": "Male",
     "Reg No": 3189,
     "Department": "CE",
     "Session": "2019-2020",
@@ -396,11 +433,13 @@
     "Student ID (19xxxxxxx)": 191051,
     "Post (Horizons Club )": "Associate Secretary (Research innovation and publication team)",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 19:24:43",
     "Name": "Shanku Adhikary",
+    "Gender": "Female",
     "Reg No": 3149,
     "Department": "CE",
     "Session": "2019-2020",
@@ -417,11 +456,13 @@
     "Student ID (19xxxxxxx)": 191011,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 19:55:30",
     "Name": "Khandaker eleyas",
+    "Gender": "Male",
     "Reg No": 3191,
     "Department": "CE",
     "Session": "2019-2020",
@@ -438,11 +479,13 @@
     "Student ID (19xxxxxxx)": 191053,
     "Post (Horizons Club )": "Executive member",
     "Father's Name": "Khandaker kamrul hassan",
-    "Mother's Name": "Ayeasha siddika"
+    "Mother's Name": "Ayeasha siddika",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:39:28",
     "Name": "MD. Shahoriar Pulok",
+    "Gender": "Male",
     "Reg No": 3182,
     "Department": "CE",
     "Session": "2019-2020",
@@ -459,11 +502,13 @@
     "Student ID (19xxxxxxx)": 191044,
     "Post (Horizons Club )": "Membar",
     "Father's Name": "MD. Ferdues Alam",
-    "Mother's Name": "Mst. Sahnaz Parvin"
+    "Mother's Name": "Mst. Sahnaz Parvin",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 12:05:53",
     "Name": "Md. Rakibul Islam",
+    "Gender": "Male",
     "Reg No": 3172,
     "Department": "CE",
     "Session": "2019-2020",
@@ -480,11 +525,13 @@
     "Student ID (19xxxxxxx)": 191034,
     "Post (Horizons Club )": "Yes",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 12:06:49",
     "Name": "Umar Farque Noushad",
+    "Gender": "Male",
     "Reg No": 3173,
     "Department": "CE",
     "Session": "2019-2020",
@@ -501,11 +548,13 @@
     "Student ID (19xxxxxxx)": 191035,
     "Post (Horizons Club )": "Cultural and sports secretary",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 22:44:34",
     "Name": "Fourkan Hossain",
+    "Gender": "Male",
     "Reg No": 3174,
     "Department": "CE",
     "Session": "2019-2020",
@@ -522,11 +571,13 @@
     "Student ID (19xxxxxxx)": 191036,
     "Post (Horizons Club )": "Executive member",
     "Father's Name": "Abdul Baten",
-    "Mother's Name": "Rahima Begum"
+    "Mother's Name": "Rahima Begum",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 12:25:57",
     "Name": "Tapraj Ahmed Shinha",
+    "Gender": "Male",
     "Reg No": 3152,
     "Department": "CE",
     "Session": "2019-2020",
@@ -543,11 +594,13 @@
     "Student ID (19xxxxxxx)": 191014,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 10:15:01",
     "Name": "Rafat Mahmud",
+    "Gender": "Male",
     "Reg No": 3185,
     "Department": "CE",
     "Session": "2019-2020",
@@ -564,11 +617,13 @@
     "Student ID (19xxxxxxx)": 191047,
     "Post (Horizons Club )": "Member",
     "Father's Name": "Md. Anwar Hossain",
-    "Mother's Name": "Rabyea Akter"
+    "Mother's Name": "Rabyea Akter",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 14:10:28",
     "Name": "Chandra Gharami",
+    "Gender": "Female",
     "Reg No": 3178,
     "Department": "CE",
     "Session": "2019-2020",
@@ -585,11 +640,13 @@
     "Student ID (19xxxxxxx)": 191040,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:53:27",
     "Name": "Sutopa Roy",
+    "Gender": "Female",
     "Reg No": 3165,
     "Department": "CE",
     "Session": "2019-2020",
@@ -606,11 +663,13 @@
     "Student ID (19xxxxxxx)": 191027,
     "Post (Horizons Club )": "Executive Member",
     "Father's Name": "Chiranjit Roy",
-    "Mother's Name": "Shukla Roy"
+    "Mother's Name": "Shukla Roy",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:49:38",
     "Name": "Alif Ebne Azad",
+    "Gender": "Male",
     "Reg No": 3198,
     "Department": "CE",
     "Session": "2019-2020",
@@ -627,11 +686,13 @@
     "Student ID (19xxxxxxx)": 191060,
     "Post (Horizons Club )": "Executive Member",
     "Father's Name": "S. M. Abul Kalam Azad",
-    "Mother's Name": "Shahanaj Azadi Shila"
+    "Mother's Name": "Shahanaj Azadi Shila",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 23:05:01",
     "Name": "Tabassum Islam",
+    "Gender": "Female",
     "Reg No": 3167,
     "Department": "CE",
     "Session": "2019-2020",
@@ -648,11 +709,13 @@
     "Student ID (19xxxxxxx)": 191031,
     "Post (Horizons Club )": "",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": "Executive Member"
   },
   {
     "Timestamp": "8/11/2025 22:55:47",
     "Name": "SAHADAT HOSSAIN SOHAN",
+    "Gender": "Male",
     "Reg No": 3142,
     "Department": "CE",
     "Session": "2019-2020",
@@ -669,11 +732,13 @@
     "Student ID (19xxxxxxx)": 191004,
     "Post (Horizons Club )": "General Secretary",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 21:33:22",
     "Name": "Mohammad Asif Hossain",
+    "Gender": "Male",
     "Reg No": 3187,
     "Department": "CE",
     "Session": "2019-2020",
@@ -690,11 +755,13 @@
     "Student ID (19xxxxxxx)": 191049,
     "Post (Horizons Club )": "Executive Member",
     "Father's Name": "Md. Samsul Alam",
-    "Mother's Name": "Mahinur Begum"
+    "Mother's Name": "Mahinur Begum",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 23:07:08",
     "Name": "MEHEDI HASAN",
+    "Gender": "Male",
     "Reg No": 3139,
     "Department": "CE",
     "Session": "2019-2020",
@@ -711,11 +778,13 @@
     "Student ID (19xxxxxxx)": 191001,
     "Post (Horizons Club )": "President",
     "Father's Name": "",
-    "Mother's Name": ""
+    "Mother's Name": "",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 23:48:07",
     "Name": "Md  Hridoy Hossain",
+    "Gender": "Male",
     "Reg No": 3171,
     "Department": "CE",
     "Session": "2019-2020",
@@ -732,11 +801,13 @@
     "Student ID (19xxxxxxx)": 191033,
     "Post (Horizons Club )": "Executive",
     "Father's Name": "Md.Rezaul Karim",
-    "Mother's Name": "Most.Sheuli Khatun"
+    "Mother's Name": "Most.Sheuli Khatun",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/11/2025 23:49:32",
     "Name": "Nayan gharami",
+    "Gender": "Male",
     "Reg No": 3150,
     "Department": "CE",
     "Session": "2019-2020",
@@ -753,11 +824,13 @@
     "Student ID (19xxxxxxx)": 191012,
     "Post (Horizons Club )": "",
     "Father's Name": "Niranjan gharami",
-    "Mother's Name": "Anita gharami"
+    "Mother's Name": "Anita gharami",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 0:15:25",
     "Name": "Mechael Nafi Isa",
+    "Gender": "Male",
     "Reg No": 3146,
     "Department": "CE",
     "Session": "2019-2020",
@@ -774,11 +847,13 @@
     "Student ID (19xxxxxxx)": 191008,
     "Post (Horizons Club )": "Member",
     "Father's Name": "Mohammad Mohsin Isa",
-    "Mother's Name": "Nayere Tasnia Chumki"
+    "Mother's Name": "Nayere Tasnia Chumki",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 0:15:40",
     "Name": "Humaune Kabir Rahul",
+    "Gender": "Male",
     "Reg No": 3159,
     "Department": "CE",
     "Session": "2019-2020",
@@ -795,11 +870,13 @@
     "Student ID (19xxxxxxx)": 191021,
     "Post (Horizons Club )": "Joint secretary",
     "Father's Name": "Abul Kalam Azad",
-    "Mother's Name": "Hosne Ara"
+    "Mother's Name": "Hosne Ara",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 1:42:28",
     "Name": "MD AHSANUL HAQUE",
+    "Gender": "Male",
     "Reg No": 3153,
     "Department": "CE",
     "Session": "2019-2020",
@@ -816,11 +893,13 @@
     "Student ID (19xxxxxxx)": 191015,
     "Post (Horizons Club )": "No",
     "Father's Name": "MD ENAMUL HAQUE",
-    "Mother's Name": "MST ASMAUL HUSNA"
+    "Mother's Name": "MST ASMAUL HUSNA",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 1:45:54",
     "Name": "Kamrul Hasan",
+    "Gender": "Male",
     "Reg No": 3192,
     "Department": "CE",
     "Session": "2019-2020",
@@ -837,11 +916,13 @@
     "Student ID (19xxxxxxx)": 191054,
     "Post (Horizons Club )": "Alumni Secretary",
     "Father's Name": "Md.Nurul Islam Palwan",
-    "Mother's Name": "Dilruba Akter"
+    "Mother's Name": "Dilruba Akter",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 22:38:36",
     "Name": "Al Jubaer",
+    "Gender": "Male",
     "Reg No": 3190,
     "Department": "CE",
     "Session": "2019-2020",
@@ -858,11 +939,13 @@
     "Student ID (19xxxxxxx)": 191052,
     "Post (Horizons Club )": "Member",
     "Father's Name": "Md. Karim Miah",
-    "Mother's Name": "Helena Akter"
+    "Mother's Name": "Helena Akter",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 17:07:44",
     "Name": "MD AHSANUL HAQUE",
+    "Gender": "Male",
     "Reg No": 3153,
     "Department": "CE",
     "Session": "2019-2020",
@@ -879,11 +962,13 @@
     "Student ID (19xxxxxxx)": 191015,
     "Post (Horizons Club )": "Member",
     "Father's Name": "MD ENAMUL HAQUE",
-    "Mother's Name": "MST ASMAUL HUSNA"
+    "Mother's Name": "MST ASMAUL HUSNA",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:57:40",
     "Name": "Tamanna sharmin payel",
+    "Gender": "Female",
     "Reg No": 1061,
     "Department": "CE",
     "Session": "2018-2019",
@@ -900,11 +985,13 @@
     "Student ID (19xxxxxxx)": 181028,
     "Post (Horizons Club )": "Executive member",
     "Father's Name": "MD.Rezaul Munshi",
-    "Mother's Name": "Mst. Shahera Banu"
+    "Mother's Name": "Mst. Shahera Banu",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 20:59:05",
     "Name": "Hridi Roy",
+    "Gender": "Female",
     "Reg No": 3160,
     "Department": "CE",
     "Session": "2019-2020",
@@ -921,11 +1008,13 @@
     "Student ID (19xxxxxxx)": 191022,
     "Post (Horizons Club )": "Treasurer",
     "Father's Name": "Sukumar Roy",
-    "Mother's Name": "Ratna Bala  Roy"
+    "Mother's Name": "Ratna Bala  Roy",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 21:02:34",
     "Name": "Nure Jannat Mishu",
+    "Gender": "Female",
     "Reg No": 3197,
     "Department": "CE",
     "Session": "2019-2020",
@@ -942,11 +1031,13 @@
     "Student ID (19xxxxxxx)": 191059,
     "Post (Horizons Club )": "EXECUTIVE MEMBER",
     "Father's Name": "Md. Abul Kalam",
-    "Mother's Name": "Mst. Shati Akter"
+    "Mother's Name": "Mst. Shati Akter",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 21:22:33",
     "Name": "Jannatul Ferthaus Maria",
+    "Gender": "Female",
     "Reg No": 3196,
     "Department": "CE",
     "Session": "2019-2020",
@@ -963,11 +1054,13 @@
     "Student ID (19xxxxxxx)": 191058,
     "Post (Horizons Club )": "Executive member",
     "Father's Name": "Sultan Hossain Mrida",
-    "Mother's Name": "Morium Khatun"
+    "Mother's Name": "Morium Khatun",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 21:20:50",
     "Name": "Mim Chowdhury",
+    "Gender": "Female",
     "Reg No": 3154,
     "Department": "CE",
     "Session": "2019-2020",
@@ -984,11 +1077,13 @@
     "Student ID (19xxxxxxx)": 191016,
     "Post (Horizons Club )": "",
     "Father's Name": "Mofizur Rahman Chowdhury",
-    "Mother's Name": "Nazma Akter"
+    "Mother's Name": "Nazma Akter",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 22:53:01",
     "Name": "Israt Jahan Supti",
+    "Gender": "Female",
     "Reg No": 3147,
     "Department": "CE",
     "Session": "2019-2020",
@@ -1005,11 +1100,13 @@
     "Student ID (19xxxxxxx)": "",
     "Post (Horizons Club )": "",
     "Father's Name": "Md. Abdul Hai",
-    "Mother's Name": "Shamira Panna"
+    "Mother's Name": "Shamira Panna",
+    "Post(Cultural Club)": ""
   },
   {
     "Timestamp": "8/12/2025 22:59:04",
     "Name": "Tamanna Akter",
+    "Gender": "Female",
     "Reg No": 3166,
     "Department": "CE",
     "Session": "2019-2020",
@@ -1026,6 +1123,145 @@
     "Student ID (19xxxxxxx)": 191028,
     "Post (Horizons Club )": "",
     "Father's Name": "Md. Tota Miah",
-    "Mother's Name": "Selina Begum"
+    "Mother's Name": "Selina Begum",
+    "Post(Cultural Club)": ""
+  },
+  {
+    "Timestamp": "8/12/2025 23:47:37",
+    "Name": "MD. SAZZAD HOSSEN",
+    "Gender": "Male",
+    "Reg No": 3162,
+    "Department": "CE",
+    "Session": "2019-2020",
+    "Batch": "03",
+    "Please Certificates You Needed": "Provisional Certificate, Testimonial, MOI, Sports Club, Research Center, Horizons Club",
+    "Post (Sports Club)": "Vice-president",
+    "Post(Research Center)": "Precident",
+    "Month": "",
+    "Year": "",
+    "Post (Hall Committee)": "",
+    "Post (Flim & Photographic Society)": "",
+    "Post (BEE)": "",
+    "CGPA": 3.09,
+    "Student ID (19xxxxxxx)": 191024,
+    "Post (Horizons Club )": "Vice-president",
+    "Father's Name": "Md. Bachu sardar",
+    "Mother's Name": "Forida begum",
+    "Post(Cultural Club)": ""
+  },
+  {
+    "Timestamp": "8/13/2025 10:07:17",
+    "Name": "Fadia Faisal Taba",
+    "Gender": "Female",
+    "Reg No": 3193,
+    "Department": "CE",
+    "Session": "2019-2020",
+    "Batch": "03",
+    "Please Certificates You Needed": "Provisional Certificate, Testimonial, MOI",
+    "Post (Sports Club)": "",
+    "Post(Research Center)": "",
+    "Month": "",
+    "Year": "",
+    "Post (Hall Committee)": "",
+    "Post (Flim & Photographic Society)": "",
+    "Post (BEE)": "",
+    "CGPA": "",
+    "Student ID (19xxxxxxx)": 191055,
+    "Post (Horizons Club )": "",
+    "Father's Name": "Faisal Ahmed",
+    "Mother's Name": "Bilkis Ara Samina",
+    "Post(Cultural Club)": ""
+  },
+  {
+    "Timestamp": "8/14/2025 13:55:37",
+    "Name": "Rakibul Hasan",
+    "Gender": "Male",
+    "Reg No": 3145,
+    "Department": "CE",
+    "Session": "2019-2020",
+    "Batch": "03",
+    "Please Certificates You Needed": "Provisional Certificate, Testimonial, MOI, Sports Club, Research Center, Horizons Club",
+    "Post (Sports Club)": "Member",
+    "Post(Research Center)": "Vice President",
+    "Month": "",
+    "Year": "",
+    "Post (Hall Committee)": "",
+    "Post (Flim & Photographic Society)": "",
+    "Post (BEE)": "",
+    "CGPA": 3.19,
+    "Student ID (19xxxxxxx)": 191007,
+    "Post (Horizons Club )": "Vice President",
+    "Father's Name": "Md.Joynal Abedin",
+    "Mother's Name": "Ruma Akter",
+    "Post(Cultural Club)": ""
+  },
+  {
+    "Timestamp": "",
+    "Name": "Pranjal Das Oikkya",
+    "Gender": "Male",
+    "Reg No": 3169,
+    "Department": "CE",
+    "Session": "2019-2020",
+    "Batch": 3,
+    "Please Certificates You Needed": "Provisional, Testimonial,  MOI, Sports, Cultural, FPS",
+    "Post (Sports Club)": "",
+    "Post(Research Center)": "",
+    "Month": "",
+    "Year": "",
+    "Post (Hall Committee)": "",
+    "Post (Flim & Photographic Society)": "",
+    "Post (BEE)": "",
+    "CGPA": "",
+    "Student ID (19xxxxxxx)": "",
+    "Post (Horizons Club )": "",
+    "Father's Name": "",
+    "Mother's Name": "",
+    "Post(Cultural Club)": "Executive Member"
+  },
+  {
+    "Timestamp": "",
+    "Name": "Tanbirul Islam",
+    "Gender": "Male",
+    "Reg No": 3183,
+    "Department": "CE",
+    "Session": "2019-2020",
+    "Batch": 3,
+    "Please Certificates You Needed": "Provisional, Testimonial,  MOI, Sports, Cultural, FPS",
+    "Post (Sports Club)": "",
+    "Post(Research Center)": "",
+    "Month": "",
+    "Year": "",
+    "Post (Hall Committee)": "",
+    "Post (Flim & Photographic Society)": "",
+    "Post (BEE)": "",
+    "CGPA": "",
+    "Student ID (19xxxxxxx)": "",
+    "Post (Horizons Club )": "",
+    "Father's Name": "",
+    "Mother's Name": "",
+    "Post(Cultural Club)": "Executive Member"
+  },
+  {
+    "Timestamp": "",
+    "Name": "Md. Tamim Hosen",
+    "Gender": "Male",
+    "Reg No": 3163,
+    "Department": "CE",
+    "Session": "2019-2020",
+    "Batch": 3,
+    "Please Certificates You Needed": "Provisional, Testimonial,  MOI, Sports, Cultural, FPS",
+    "Post (Sports Club)": "",
+    "Post(Research Center)": "",
+    "Month": "",
+    "Year": "",
+    "Post (Hall Committee)": "",
+    "Post (Flim & Photographic Society)": "",
+    "Post (BEE)": "",
+    "CGPA": "",
+    "Student ID (19xxxxxxx)": "",
+    "Post (Horizons Club )": "",
+    "Father's Name": "",
+    "Mother's Name": "",
+    "Post(Cultural Club)": "Executive Member"
   }
 ]

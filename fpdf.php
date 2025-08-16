@@ -1,146 +1,185 @@
 <?php
-// function make_certificate_line_multiline($text1, $text2, $text3, $image, $color, $y) {
+//justify
+function make_paragraph_text_justify($text, $image, $color, $font, $startX, $startY, $maxWidth) {
+    $fontSize = 70; // initial font size
+    $words = explode(" ", $text);
 
-//     // Fonts
-//     $font_ovo = "fonts/Ovo.ttf";
-//     $font_chalkboard = "fonts/Chalkboard.ttc";
+    do {
+        $lines = [];
+        $current_line = [];
+        $line_width = 0;
 
-//     // Font sizes
-//     $size_ovo = 70;
-//     $size_chalkboard = 80;
+        foreach ($words as $word) {
+            $test_line = $current_line ? implode(" ", $current_line) . " " . $word : $word;
+            $box = imagettfbbox($fontSize, 0, $font, $test_line);
+            $test_width = $box[2] - $box[0];
 
-//     // Merge text parts with style markers
-//     $full_text = $text1 . "[CS]" . $text2 . "[/CS]" . $text3;
+            if ($test_width > $maxWidth) {
+                if ($current_line) $lines[] = $current_line;
+                $current_line = [$word];
+            } else {
+                $current_line[] = $word;
+            }
+        }
+        if ($current_line) $lines[] = $current_line;
 
-//     // Step 1: Decide how to split into lines
-//     if (strpos($full_text, '|') !== false) {
-//         // Manual line breaks
-		
-//         $lines = explode("|", $full_text);
-		
-//     } else {
-//         // Auto-wrap if longer than 65 characters
-//         if (strlen($full_text) > 65) {
-//             $words = explode(" ", $full_text);
-//             $current_line = "";
-//             $lines = [];
-//             foreach ($words as $word) {
-//                 if (strlen($current_line . " " . $word) > 65) {
-//                     $lines[] = trim($current_line);
-//                     $current_line = $word;
-//                 } else {
-//                     $current_line .= " " . $word;
-//                 }
-//             }
-//             if (!empty($current_line)) {
-//                 $lines[] = trim($current_line);
-//             }
-//         } else {
-//             // Short enough to be one line
-//             $lines = [$full_text];
-//         }
-//     }
+        // Reduce font size if text too tall
+        $totalHeight = count($lines) * ($fontSize + 10);
+        $fontSize--;
+    } while ($totalHeight > imagesy($image) - $startY && $fontSize > 8);
 
-//     // Step 2: Draw each line centered
-//     foreach ($lines as $line) {
-//         $line = trim($line);
+    // Draw each justified line
+    $y = $startY;
+    foreach ($lines as $lineWords) {
+        $lineText = implode(" ", $lineWords);
+        if (count($lineWords) > 1) {
+            $box = imagettfbbox($fontSize, 0, $font, $lineText);
+            $lineWidth = $box[2] - $box[0];
+            $spaceCount = count($lineWords) - 1;
+            $extraSpace = ($maxWidth - $lineWidth) / $spaceCount;
 
-//         // Split into parts for font switching
-//         $parts = preg_split("/(\[CS\]|\[\/CS\])/", $line, -1, PREG_SPLIT_DELIM_CAPTURE);
-
-//         // Measure total width
-//         $total_width = 0;
-//         $in_cs = false;
-//         foreach ($parts as $part) {
-//             if ($part === "[CS]") { $in_cs = true; continue; }
-//             if ($part === "[/CS]") { $in_cs = false; continue; }
-//             $font = $in_cs ? $font_chalkboard : $font_ovo;
-//             $size = $in_cs ? $size_chalkboard : $size_ovo;
-//             $box = imagettfbbox($size, 0, $font, $part);
-//             $total_width += $box[2] - $box[0];
-//         }
-
-//         // Center X
-//         $x = (imagesx($image) - $total_width) / 2;
-//         $in_cs = false;
-//         foreach ($parts as $part) {
-//             if ($part === "[CS]") { $in_cs = true; continue; }
-//             if ($part === "[/CS]") { $in_cs = false; continue; }
-//             $font = $in_cs ? $font_chalkboard : $font_ovo;
-//             $size = $in_cs ? $size_chalkboard : $size_ovo;
-//             imagettftext($image, $size, 0, $x, $y, $color, $font, $part);
-//             $box = imagettfbbox($size, 0, $font, $part);
-//             $x += $box[2] - $box[0];
-//         }
-
-//         $y += 100; // Move down
-//     }
-// }
+            $x = $startX;
+            foreach ($lineWords as $word) {
+                imagettftext($image, $fontSize, 0, $x, $y, $color, $font, $word);
+                $wordBox = imagettfbbox($fontSize, 0, $font, $word);
+                $wordWidth = $wordBox[2] - $wordBox[0];
+                $x += $wordWidth + $extraSpace;
+            }
+        } else {
+            // Single word line (left-align)
+            imagettftext($image, $fontSize, 0, $startX, $y, $color, $font, $lineText);
+        }
+        $y += $fontSize + 10;
+    }
+}
 
 
-function make_certificate_line_multiline($text1, $text2, $text3, $image, $color, $y) {
+// Function to add paragraph with dynamic font size
+function make_paragraph_text_dynamic($text, $image, $color, $font, $startX, $startY, $maxWidth) {
+    $line_height=40; //initial line height
+    $fontSize = 70; // initial font size
+    $lines = [];
+
+    // Split into words
+    $words = explode(" ", $text);
+
+    do {
+        $lines = [];
+        $current_line = "";
+        foreach ($words as $word) {
+            $test_line = $current_line ? $current_line . " " . $word : $word;
+            $box = imagettfbbox($fontSize, 0, $font, $test_line);
+            $line_width = $box[2] - $box[0];
+            if ($line_width > $maxWidth) {
+                if ($current_line) $lines[] = $current_line;
+                $current_line = $word;
+            } else {
+                $current_line = $test_line;
+            }
+        }
+        $lines[] = $current_line;
+        // Reduce font size if line count too big
+        $fontSize--;
+    } while (count($lines) * ($fontSize + $line_height) > imagesy($image) - $startY && $fontSize > 8);
+
+    // Draw lines
+    $y = $startY;
+    foreach ($lines as $line) {
+        imagettftext($image, $fontSize, 0, $startX, $y, $color, $font, trim($line));
+        $y += $fontSize + $line_height; // dynamic line height
+    }
+}
+
+
+
+function make_certificate_line_multiline($text1 = "", $text2 = "", $text3 = "", $image, $color, $y) {
     $font_ovo = "fonts/Ovo.ttf";
     $font_chalkboard = "fonts/Chalkboard.ttc";
     $size_ovo = 70;
     $size_chalkboard = 80;
 
-    $full_text = $text1 . "[CS]" . $text2 . "[/CS]" . $text3;
+    // Compose the full styled text
+    $full_text = $text1;
+    if (!empty($text2)) {
+        $full_text .= "[CS]" . $text2 . "[/CS]";
+    }
+    $full_text .= $text3;
+
+    // Allow manual newlines with |
     $manual_lines = explode("|", $full_text);
 
     $final_lines = [];
-    $max_width = imagesx($image) - 600; // Leave some margin
+    $max_width = imagesx($image) - 600; // margin
+    $in_cs = false; // Track if we're inside a style
 
     foreach ($manual_lines as $line) {
         $line = trim($line);
         $words = explode(' ', $line);
         $current_line = "";
-        $test_line = "";
 
         foreach ($words as $word) {
             $test_line = trim($current_line . ' ' . $word);
 
-            // Split into parts for style processing
+            // Check the width of the line with styling
             $parts = preg_split("/(\[CS\]|\[\/CS\])/", $test_line, -1, PREG_SPLIT_DELIM_CAPTURE);
 
-            $in_cs = false;
             $test_width = 0;
+            $temp_in_cs = $in_cs; // track temporary state for measuring
+
             foreach ($parts as $part) {
-                if ($part === "[CS]") { $in_cs = true; continue; }
-                if ($part === "[/CS]") { $in_cs = false; continue; }
-                $font = $in_cs ? $font_chalkboard : $font_ovo;
-                $size = $in_cs ? $size_chalkboard : $size_ovo;
+                if ($part === "[CS]") { $temp_in_cs = true; continue; }
+                if ($part === "[/CS]") { $temp_in_cs = false; continue; }
+
+                $font = $temp_in_cs ? $font_chalkboard : $font_ovo;
+                $size = $temp_in_cs ? $size_chalkboard : $size_ovo;
                 $box = imagettfbbox($size, 0, $font, $part);
                 $test_width += $box[2] - $box[0];
             }
 
             if ($test_width > $max_width) {
                 if (!empty($current_line)) {
-                    $final_lines[] = trim($current_line);
-                    $current_line = $word;
+                    // Auto-close style at end of line if needed
+                    $line_to_push = $current_line;
+                    if ($in_cs && substr($line_to_push, -5) !== "[/CS]") {
+                        $line_to_push .= "[/CS]";
+                    }
+                    $final_lines[] = trim($line_to_push);
+
+                    // Start new line, reopen style if necessary
+                    $current_line = ($in_cs ? "[CS]" : "") . $word;
                 } else {
-                    $final_lines[] = $word; // single long word fallback
+                    $final_lines[] = $word;
                     $current_line = "";
                 }
             } else {
                 $current_line = $test_line;
             }
+
+            // Update actual style status based on current word
+            if (strpos($word, '[CS]') !== false) $in_cs = true;
+            if (strpos($word, '[/CS]') !== false) $in_cs = false;
         }
 
         if (!empty($current_line)) {
+            // Close tag if still in styled section
+            if ($in_cs && substr($current_line, -5) !== "[/CS]") {
+                $current_line .= "[/CS]";
+            }
             $final_lines[] = trim($current_line);
         }
     }
 
-    // Draw each line
+    // Draw each line on the image
     foreach ($final_lines as $line) {
         $parts = preg_split("/(\[CS\]|\[\/CS\])/", $line, -1, PREG_SPLIT_DELIM_CAPTURE);
 
-        // Measure total width
+        // Measure total width to center the text
         $total_width = 0;
         $in_cs = false;
         foreach ($parts as $part) {
             if ($part === "[CS]") { $in_cs = true; continue; }
             if ($part === "[/CS]") { $in_cs = false; continue; }
+
             $font = $in_cs ? $font_chalkboard : $font_ovo;
             $size = $in_cs ? $size_chalkboard : $size_ovo;
             $box = imagettfbbox($size, 0, $font, $part);
@@ -148,20 +187,25 @@ function make_certificate_line_multiline($text1, $text2, $text3, $image, $color,
         }
 
         $x = (imagesx($image) - $total_width) / 2;
+
+        // Draw the text with style switching
         $in_cs = false;
         foreach ($parts as $part) {
             if ($part === "[CS]") { $in_cs = true; continue; }
             if ($part === "[/CS]") { $in_cs = false; continue; }
+
             $font = $in_cs ? $font_chalkboard : $font_ovo;
             $size = $in_cs ? $size_chalkboard : $size_ovo;
+
             imagettftext($image, $size, 0, $x, $y, $color, $font, $part);
             $box = imagettfbbox($size, 0, $font, $part);
             $x += $box[2] - $box[0];
         }
 
-        $y += 100; // move down
+        $y += 100; // Move to next line
     }
 }
+
 
 
 function make_certificate_line($text1,$text2,$text3,$image, $color,$y) {

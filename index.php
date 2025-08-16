@@ -23,9 +23,17 @@ for ($i=0; $i < $count; $i++) {
     $color=imagecolorallocate($image,142,98,38);
     
     // Text parts
-    $text1 = "He/She served as a ";
-    $text2 = $php_array[$i]['Post (Horizons Club )'];
-    $text3 = " of Horizon club from 29 December, 2022 to 29 May, 2024."; // use | for newline
+    // $text1 = "He/She served as a ";
+    // $text2 = $php_array[$i]['Post (Horizons Club )'];
+    // $text3 = " of the ";
+    // $text4 = $php_array[$i]['Committee'];
+    // $text3 = " of the Horizon - Civil Engineers Forum from 29 December, 2022 to 29 May, 2024."; // use | for newline
+
+
+    $text1 = "He/She served as a [CS]".$php_array[$i]['Post (Horizons Club )']."[/CS] of the  [CS]".$php_array[$i]['Committee']."[/CS] Team of Horizon - Civil Engineers Forum from 29 December, 2022 to 29 May, 2024.";
+    // $text1 = "He/She served as a [CS]".$php_array[$i]['Post (Horizons Club )']."[/CS] of the [CS]".$php_array[$i]['Committee']."[/CS] of the Horizon - Civil Engineers Forum from 29 December, 2022 to 29 May, 2024.";
+    $text2="";
+    $text3 = ""; // use | for newline
 
     make_certificate_line_multiline($text1,$text2,$text3,$image, $color,1500);
 
